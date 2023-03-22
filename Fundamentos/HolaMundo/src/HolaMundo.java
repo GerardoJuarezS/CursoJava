@@ -7,6 +7,10 @@
  *
  * @author Gerardo
  */
+// Clase en java
 public class HolaMundo {
-    
+    //creamos un metodo
+    public static void main(String args[]){
+        System.out.println("Hola mundo en java");
+    }
 }
