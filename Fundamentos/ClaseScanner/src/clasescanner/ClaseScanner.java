@@ -4,6 +4,8 @@
  */
 package clasescanner;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Gerardo
@@ -15,6 +17,13 @@ public class ClaseScanner {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Escribe tu nombre: ");
+        Scanner consola = new Scanner(System.in);
+        var usuario = consola.nextLine();
+        System.out.println("usuario = " + usuario);
+        
+        var titulo = consola.nextLine();
+        System.out.println("Resultado: " + titulo + " " + usuario);
     }
     
 }
