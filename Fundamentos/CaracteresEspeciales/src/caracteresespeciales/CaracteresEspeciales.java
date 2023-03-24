@@ -15,6 +15,12 @@ public class CaracteresEspeciales {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        var nombre = "Gerardo";
+        System.out.println("Nueva linea: \n" + nombre);
+        System.out.println("Tabulador: \t" + nombre);
+        System.out.println("Retroceso: \b\b" + nombre);
+        System.out.println("comilla simple: \'" + nombre + "\'");
+        System.out.println("comilla doble: \"" + nombre + "\"");
     }
-    
+
 }
