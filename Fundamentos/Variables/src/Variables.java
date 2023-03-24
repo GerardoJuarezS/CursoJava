@@ -17,5 +17,23 @@ public class Variables {
          miVariableEntera = 5;
          System.out.println(miVariableEntera);
          
+         String miVariableCadena = "Saludos 24 de marzo del 2023";
+         System.out.println(miVariableCadena);
+         
+         miVariableCadena = "Adios ";
+          System.out.println(miVariableCadena); 
+          
+          // var ---> inferencia de tipos en java
+          var miVariableEntera2 = 15;
+          System.out.println(miVariableEntera2);
+          
+          var miVariableCadena2 = "Buenas tardes hoy 24 de marzo del 2023";
+          System.out.println("miVariableCadena2 = " + miVariableCadena2);
+          
+          //valores permitidos para declarar variables
+          var miVariable = 1;
+          var _miVariable =2;
+          var $miVariable = 3;
+         
     }
 }
