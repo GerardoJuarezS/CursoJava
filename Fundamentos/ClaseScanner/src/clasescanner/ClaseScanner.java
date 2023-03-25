@@ -21,7 +21,7 @@ public class ClaseScanner {
         Scanner consola = new Scanner(System.in);
         var usuario = consola.nextLine();
         System.out.println("usuario = " + usuario);
-        
+         System.out.println("Escribe tu profesion: ");
         var titulo = consola.nextLine();
         System.out.println("Resultado: " + titulo + " " + usuario);
     }
