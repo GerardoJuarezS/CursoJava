@@ -14,7 +14,19 @@ public class TiposPrimitivosFlotantes {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        /*
+        tipos primitivos de tipo flotante: float y double
+         */
+
+        float numeroFloat = 10.0F;
+        System.out.println("numeroFloat = " + numeroFloat);
+        System.out.println("valor minimo del float " + Float.MIN_VALUE);
+        System.out.println("valor maximo del float " + Float.MAX_VALUE);
+
+        double numeroDouble =  10;
+        System.out.println("numeroFloat = " + numeroDouble);
+        System.out.println("valor minimo del float " + Double.MIN_VALUE);
+        System.out.println("valor maximo del float " + Double.MAX_VALUE);
     }
-    
+
 }
